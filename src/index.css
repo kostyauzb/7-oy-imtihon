@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .max-container {
+    @apply max-w-[1250px] w-full p-5 mx-auto;
+    @media (max-width: 380px) {
+      padding: 10px;
+    }
+  }
+  .navbar {
+    /* border: 2px solid red; */
+  }
+  .titles {
+    /* border: 2px solid red; */
+  }
+  .main {
+    /* border: 2px solid black; */
+  }
+  .splide {
+    /* border: 2px solid red; */
+  }
+}
